@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    
+    background-color:#dadada88;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    color: rgb(133, 99, 20);
+}
+nav>h1{
+margin-left: 2vmax;
+font-size: 4vmax;
+
+}
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+nav>ul>li{
+    margin: 2vmax;
+    font-size: 1.3vmax;
+    
+}
+button{
+    border-radius: 50px;
+    background-color: rgb(36, 36, 36);
+    padding: .6vmax 2vmax ;
+    color: white;
+    font-size: 1.3vmax;
+    color: rgb(133, 99, 20);
+}
+.one{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+}
+.left>h1{
+    font-size: 3vmax;
+    position: absolute;
+    top: 23%;
+    left: 9%;
+}
+.left>p{
+font-size: 1.4vmax;
+position: absolute;
+top: 41%;
+left: 9%;
+}
+
+.bu{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+.ex{
+position: absolute;
+top: 55%;
+left: 25%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(119, 196, 25);
+    background-image: url(https://media.istockphoto.com/id/1357529193/photo/3d-rendering-of-a-cozy-living-room.jpg?b=1&s=170667a&w=0&k=20&c=gwhtLAqiPAzxxAAOcHm9trkq8VaTfioCirD4q1ezAaA=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.down{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.one-two{
+    position: absolute;
+    left: 9%;
+    width: 14%;
+    height: 34%;
+    top: 65.6%;
+    background-color: #dadada;
+}
+.one-two>p{
+    position: absolute;
+    top: 50%;
+    font-size: 1.2vmax;
+    
+}
+
+.two{
+    width: 14%;
+    height: 33.3%;
+    background-color: #dadadab1;
+    position: absolute;
+    left: 33%;
+    top: 65.6%;
+}
+.image{
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.unsplash.com/photo-1489269637500-aa0e75768394?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZ1cm5pdHVyZSUyMGNoYWlyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.three{
+    width: 14%;
+    height: 33.5%;
+    background-color: #dadada;
+    position: absolute;
+    left: 55%;
+    top: 65.6%;
+}
+.photo{
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.unsplash.com/photo-1496661114625-498c51bd0ea0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZ1cm5pdHVyZSUyMHBsYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.four{
+    width: 14%;
+    height: 34%;
+    position: absolute;
+    left: 75%;
+    top: 65.6%;
+    background-color: #dadada;
+}
+.photoc{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZnVybml0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 0, 0, 0.392),rgba(0, 0, 255, 0.425),rgba(0, 0, 0, 0.249));
+}
